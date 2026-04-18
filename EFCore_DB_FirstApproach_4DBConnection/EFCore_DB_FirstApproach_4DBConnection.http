@@ -1,0 +1,6 @@
+@EFCore_DB_FirstApproach_4DBConnection_HostAddress = http://localhost:5016
+
+GET {{EFCore_DB_FirstApproach_4DBConnection_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
