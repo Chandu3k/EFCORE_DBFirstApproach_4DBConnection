@@ -3,7 +3,7 @@ using EFCore_DB_FirstApproach_4DBConnection.MidlandModels;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCore_DB_FirstApproach_4DBConnection.Repository
-{
+{ 
     public class OrderRepository : IOrderRepository
     {
         private readonly MidlandContext _context;
