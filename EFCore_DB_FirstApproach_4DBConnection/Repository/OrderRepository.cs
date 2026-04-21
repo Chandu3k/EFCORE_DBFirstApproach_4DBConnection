@@ -63,7 +63,7 @@ namespace EFCore_DB_FirstApproach_4DBConnection.Repository
 
         public async Task<bool> UpdateOrder(Order orderdetails)
         {
-            _context.Update(orderdetails);
+            _context.Orders.Update(orderdetails);
             await _context.SaveChangesAsync();
             return true;
 

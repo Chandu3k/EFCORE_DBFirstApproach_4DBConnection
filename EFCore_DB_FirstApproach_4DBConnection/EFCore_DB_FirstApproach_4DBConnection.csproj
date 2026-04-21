@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="MidlandModels\" />
+    <Folder Include="NorthwindDBModels\" />
   </ItemGroup>
 
 </Project>
